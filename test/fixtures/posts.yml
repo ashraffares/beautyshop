@@ -1,6 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  title: MyString
   img: MyString
   content: MyText
   date: 2021-06-23
@@ -8,6 +9,7 @@ one:
   born: MyString
 
 two:
+  title: MyString
   img: MyString
   content: MyText
   date: 2021-06-23

@@ -1,6 +1,7 @@
-class CreateTitles < ActiveRecord::Migration[6.1]
+class CreatePosts < ActiveRecord::Migration[6.1]
   def change
-    create_table :titles do |t|
+    create_table :posts do |t|
+      t.string :title
       t.string :img
       t.text :content
       t.date :date
