@@ -8,7 +8,7 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-console.log("hello world!")
+console.log("working fine!");
 
 Rails.start()
 Turbolinks.start()
