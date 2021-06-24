@@ -211,6 +211,21 @@
     .footer a span {
       display: none;
     }
+
+    .split {
+      width: 100%;
+      height: 50%;
+    }
+
+    .split.left {
+      left: unset;
+      top: 0;
+    }
+
+    .split.right {
+      right: unset;
+      bottom: 0;
+    }
   }
   
   @media(max-height: 700px) {
