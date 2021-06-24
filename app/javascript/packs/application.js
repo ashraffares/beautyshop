@@ -19,24 +19,20 @@ const right = document.querySelector(".right");
 const container = document.querySelector(".container");
 
 if (left) {
-  left.addEventListener("mouseenter", () => {
-    container.classList.add("hover-left");
-  });
-  
-  left.addEventListener("mouseleave", () => {
-    container.classList.remove("hover-left");
-  });
-}
+left.addEventListener("mouseenter", () => {
+  container.classList.add("hover-left");
+})
 
+left.addEventListener("mouseleave", () => {
+  container.classList.remove("hover-left");
+})
+}
 if (right) {
-  right.addEventListener("mouseenter", () => {
-    container.classList.add("hover-right");
-  });
+right.addEventListener("mouseenter", () => {
+  container.classList.add("hover-right");
+})
   
-  right.addEventListener("mouseleave", () => {
-    container.classList.remove("hover-right");
-  });
+right.addEventListener("mouseleave", () => {
+  container.classList.remove("hover-right");
+})
 }
-
-
-
