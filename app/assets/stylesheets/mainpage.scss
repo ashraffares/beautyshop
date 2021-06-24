@@ -133,6 +133,62 @@
   .hover-right .left:before {
     z-index: 2;
   }
+
+  /* footer */
+  .footer {
+    font-family: serif;
+    line-height: 1.5rem;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #131313;
+  }
+  
+  .footer a {
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 25px;
+    margin: 10px;
+  }
+
+  .footer-beauty a {
+    color: #ffb7cb;
+  }
+
+  /* copyright */
+  .copy-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    padding: 35px;
+    gap: 5px;
+  }
+
+  .copy-right span {
+    font-family: serif;
+    line-height: 1.5rem;
+    color: #aaa;
+  }
+
+  #art {
+    color: #fff;
+  }
+
+  .artbeauty {
+    color: #ffb7cb;
+  }
+
+  /* end footer*/
   
   @media(max-width: 800px) {
     h1 {
@@ -141,6 +197,19 @@
   
     .button {
       width: 12rem;
+    }
+
+    .footer a  {
+      width: 4%;
+      font-size: 16px;
+      padding: 13px 20px;
+      border-radius: 70px;
+      margin: 6px;
+
+    }
+
+    .footer a span {
+      display: none;
     }
   }
   
