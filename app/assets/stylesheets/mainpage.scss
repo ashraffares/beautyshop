@@ -304,6 +304,50 @@
       right: unset;
       bottom: 0;
     }
+
+    .nav {
+      left: unset;
+      right: 0;
+    }
+
+    .nav_container {
+      float: right;
+      width: 15%;
+      padding-right: unset;
+      border-right: unset;
+      border-left: 10px;
+      border-top-right-radius: unset;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: unset;
+      border-bottom-left-radius: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo_container {
+      display: none;
+    }
+
+    .nav_links {
+      display: none;
+      flex-direction: column;
+    }
+
+    .nav_links li {
+      border-left: unset;
+      border-bottom: unset;
+    }
+
+    .nav_links li:hover {
+      border-left: unset;
+      border-bottom: unset;
+      border-bottom-left-radius: unset;
+    }
+
+    .burger_menu {
+      color: #fff;
+      font-size: 45px;
+    }
   }
   
   @media(max-height: 700px) {
